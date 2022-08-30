@@ -1,0 +1,18 @@
+{
+	"name": "pensil-hackathon",
+	"version": "1.0.0",
+	"description": "A landing Page using tailwind css",
+	"main": "index.js",
+	"scripts": {
+		"build": "tailwindcss -i ./css/style.css -o ./css/main.css",
+		"watch": "tailwindcss -i ./css/style.css -o ./css/main.css --watch"
+	},
+	"keywords": [
+		"TailwindCSS"
+	],
+	"author": "Narayan Maity",
+	"license": "ISC",
+	"devDependencies": {
+		"tailwindcss": "^3.1.8"
+	}
+}
