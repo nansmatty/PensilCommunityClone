@@ -14,7 +14,7 @@
 
 <body>
   <!-- Navbar or Header -->
-  <nav class="relative container mx-auto p-6 px-20 md:px-6 lg:px-12 bg-slate-800">
+  <nav class="relative w-screen p-6 px-20 md:px-6 lg:px-12 bg-slate-800">
     <div class="flex items-center justify-between">
       <!-- logo -->
       <div class="flex items-center justify-center">
@@ -33,8 +33,7 @@
   <!-- Hero Section -->
 
   <section id="hero">
-    <div
-      class="container h-3/4 flex md:flex-col-reverse md:justify-center md:items-center mx-auto p-6 px-20 md:px-6 lg:px-12">
+    <div class="w-screen h-3/4 flex md:flex-col-reverse md:justify-center md:items-center p-6 px-20 md:px-6 lg:px-12">
       <!-- Left Item -->
       <div class="flex flex-col justify-center md:-mt-10 w-1/2 md:w-full md:my-10 md:text-center space-y-12 ">
         <h1 class="text-6xl lg:text-5xl md:text-5xl font-bold md:pt-10"><span class="text-blue-600">Welcome</span>
@@ -94,7 +93,7 @@
 
   <!-- Community Owner/Instructor -->
   <section id="instructors">
-    <div class="container mt-8 flex flex-col mx-auto p-6 px-20 md:px-6 lg:px-12">
+    <div class="w-screen mt-8 flex flex-col p-6 px-20 md:px-6 lg:px-12">
       <h1 class="text-4xl font-semibold text-center">Our Community</h1>
       <div class="mt-10 flex lg:flex-col gap-4">
         <figure class="transition shadow-xl shadow-slate-400 ease-in-out hover:scale-105 rounded-lg p-8 bg-blue-200">
@@ -185,10 +184,10 @@
 
   <!-- Group List -->
   <section id="groups">
-    <div class="w-screen bg-slate-800">
-      <div class="container mt-8 flex flex-col items-center mx-auto p-6 px-20 md:px-6 lg:px-12">
+    <div class="bg-slate-800">
+      <div class="w-screen mt-8 flex flex-col items-center p-6 px-20 md:px-6 lg:px-12">
         <h1 class="text-4xl font-semibold text-white">Here are the Groups</h1>
-        <div class="p-10 grid grid-cols-4 lg:grid-cols-2 md:grid-cols-1 mt-4 gap-4">
+        <div class="py-10 grid grid-cols-4 lg:grid-cols-2 md:grid-cols-1 mt-4 gap-4">
           <div class="flex flex-col transition ease-in-out hover:scale-110 rounded-xl shadow-lg bg-slate-900">
             <img
               src="https://pensil-social.s3.ap-south-1.amazonaws.com/storage/group-banners/5ff6d695-41cd-4b0d-8026-d395ac0b0ce8./var/www/pensil-marketplace-backend/tmp/tmp-400-1655539036888"
@@ -281,26 +280,26 @@
 
   <!-- Live Session -->
   <section id="liveSession">
-    <div class="container mt-8 flex flex-col items-center mx-auto p-6 px-20 md:px-6 lg:px-12">
+    <div class="w-screen mt-8 flex flex-col items-center p-6 px-20 md:px-6 lg:px-12">
       <h1 class="text-4xl font-semibold">
         <span class="text-red-600">
           <i class="fa-solid fa-circle"></i>
         </span>
         Live Session
       </h1>
-      <div class="my-8">
+      <div class="my-8 bg-gradient-to-r from-purple-500 to-pink-500 p-9 rounded-3xl">
         <img src="img/videoCalling.png" alt="">
       </div>
-      <div class="flex md:flex-col gap-3">
-        <div class="p-8 hover:shadow-xl bg-sky-300 rounded-md">
+      <div class="flex md:flex-col px-16 lg:px-8 md:px-4 gap-3">
+        <div class="p-8 hover:shadow-lg bg-sky-100 rounded-md">
           <h3 class="font-semibold text-xl">Immersive Experince</h3>
           <p class="text-lg">Conduct Live sessions or webinar, get the best audio video quality</p>
         </div>
-        <div class="p-8 hover:shadow-xl bg-sky-300 rounded-md">
+        <div class="p-8 hover:shadow-lg bg-sky-100 rounded-md">
           <h3 class="font-semibold text-xl">Host Event with Live QnA</h3>
           <p class="text-lg">Invite hosts, moderator & get the best live experience for your commmunity</p>
         </div>
-        <div class="p-8 hover:shadow-xl bg-sky-300 rounded-md">
+        <div class="p-8 hover:shadow-lg bg-sky-100 rounded-md">
           <h3 class="font-semibold text-xl">Share your live recordings</h3>
           <p class="text-lg">Share or post recording on Youtube, Facebook, Vimeo, or any other platform</p>
         </div>
@@ -309,6 +308,116 @@
   </section>
 
   <!-- Testimonials -->
+  <section id="testimonials">
+    <div class="bg-slate-800">
+      <div class="w-screen mt-8 flex flex-col items-center p-6 px-20 md:px-6 lg:px-12">
+        <h1 class="text-4xl text-white font-semibold">See What People Say About Us</h1>
+        <div class="grid grid-cols-2 md:grid-cols-1 gap-4 text-white py-10">
+          <div class="px-8 py-4 flex flex-col border-2 border-red-300 rounded-xl">
+            <span class="text-2xl"><i class="fa-solid fa-quote-right"></i></span>
+            <p class="font-semibold tracking-wider">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta
+              labore temporibus
+              minima, debitis
+              corporis ipsa libero praesentium voluptates harum excepturi dolorum ducimus doloribus quos dolores soluta
+              asperiores amet nihil maxime!
+            </p>
+            <div class="flex items-center pt-2 pb-1 gap-4">
+              <img class="w-12 h-12 rounded-full " src="img/sarahDyan.jpg" alt="sarahDyan">
+              <div>
+                <h3 class="text-lg font-semibold">Sarah Dyan</h3>
+                <p class="text-sm text-gray-300">SOFTWARE ENGINEER</p>
+              </div>
+            </div>
+          </div>
+          <div class="px-8 py-4 flex flex-col border-2 border-red-300 rounded-xl">
+            <span class="text-2xl"><i class="fa-solid fa-quote-right"></i></span>
+            <p class="font-semibold tracking-wider">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta
+              labore temporibus
+              minima, debitis
+              corporis ipsa libero praesentium voluptates harum excepturi dolorum ducimus doloribus quos dolores soluta
+              asperiores amet nihil maxime!
+            </p>
+            <div class="flex items-center pt-2 pb-1 gap-4">
+              <img class="w-12 h-12" src="img/avatar-anisha.png" alt="Anisha">
+              <div>
+                <h3 class="text-lg font-semibold">Anisha Shawn</h3>
+                <p class="text-sm text-gray-300">WEB DEVELOPER</p>
+              </div>
+            </div>
+          </div>
+          <div class="px-8 py-4 flex flex-col border-2 border-red-300 rounded-xl">
+            <span class="text-2xl"><i class="fa-solid fa-quote-right"></i></span>
+            <p class="font-semibold tracking-wider">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta
+              labore temporibus
+              minima, debitis
+              corporis ipsa libero praesentium voluptates harum excepturi dolorum ducimus doloribus quos dolores soluta
+              asperiores amet nihil maxime!
+            </p>
+            <div class="flex items-center pt-2 pb-1 gap-4">
+              <img class="w-12 h-12" src="img/avatar-richard.png" alt="Richard">
+              <div>
+                <h3 class="text-lg font-semibold">Richard William</h3>
+                <p class="text-sm text-gray-300">MOBILE DEVELOPER</p>
+              </div>
+            </div>
+          </div>
+          <div class="px-8 py-4 md:hidden flex flex-col border-2 border-red-300 rounded-xl">
+            <span class="text-2xl"><i class="fa-solid fa-quote-right"></i></span>
+            <p class="font-semibold tracking-wider">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta
+              labore temporibus
+              minima, debitis
+              corporis ipsa libero praesentium voluptates harum excepturi dolorum ducimus doloribus quos dolores soluta
+              asperiores amet nihil maxime!
+            </p>
+            <div class="flex items-center pt-2 pb-1 gap-4">
+              <img class="w-12 h-12" src="img/avatar-shanai.png" alt="Shanai">
+              <div>
+                <h3 class="text-lg font-semibold">Shanai Doe</h3>
+                <p class="text-sm text-gray-300">DEVOPS ENGINEER</p>
+              </div>
+            </div>
+          </div>
+          <div class="px-8 py-4 md:hidden lg:hidden flex flex-col border-2 border-red-300 rounded-xl">
+            <span class="text-2xl"><i class="fa-solid fa-quote-right"></i></span>
+            <p class="font-semibold tracking-wider">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta
+              labore temporibus
+              minima, debitis
+              corporis ipsa libero praesentium voluptates harum excepturi dolorum ducimus doloribus quos dolores soluta
+              asperiores amet nihil maxime!
+            </p>
+            <div class="flex items-center pt-2 pb-1 gap-4">
+              <img class="w-12 h-12 rounded-full" src="img/johnDoe.jpg" alt="John Doe">
+              <div>
+                <h3 class="text-lg font-semibold">John Doe</h3>
+                <p class="text-sm text-gray-300">UI/UX DEVELOPER</p>
+              </div>
+            </div>
+          </div>
+          <div class="px-8 py-4 md:hidden lg:hidden flex flex-col border-2 border-red-300 rounded-xl">
+            <span class="text-2xl"><i class="fa-solid fa-quote-right"></i></span>
+            <p class="font-semibold tracking-wider">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta
+              labore temporibus
+              minima, debitis
+              corporis ipsa libero praesentium voluptates harum excepturi dolorum ducimus doloribus quos dolores soluta
+              asperiores amet nihil maxime!
+            </p>
+            <div class="flex items-center pt-2 pb-1 gap-4">
+              <img class="w-12 h-12" src="img/avatar-ali.png" alt="Ali">
+              <div>
+                <h3 class="text-lg font-semibold">Alisa Dane</h3>
+                <p class="text-sm text-gray-300">WORDPRESS DEVELOPER</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <a href="#"
+            class="btn text-white font-semibold tracking-widest text-lg border-2 border-red-500 py-3 px-6 rounded-3xl">See
+            More</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
 </body>
